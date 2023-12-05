@@ -18,7 +18,6 @@ function display_options() {
     echo -e " 					${RED}5.  Capture handshake${NC}"
     echo -e " 					${RED}6.  Wifi Ddos${NC}"
     echo -e " 					${RED}7.  Wi-Fi password${NC}"
-    echo -e " 					${RED}8.  test${NC}"
     echo -e " 					${RED}90. clear${NC}"
     echo -e " 					${RED}99. Exit${NC}\n"
 }
