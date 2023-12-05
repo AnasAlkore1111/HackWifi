@@ -6,7 +6,7 @@ GREEN='\033[1;32m'
 YELLOW='\033[1;33m' 
 BLUE='\033[0;34m'
 NC='\033[0m' # No Color
-cat anas.txt | lolcat -a -s 400 -d 3 -f
+cat drawing | lolcat -a -s 400 -d 3 -f
 
 # Function to display options
 function display_options() {
@@ -52,7 +52,7 @@ while true; do
             ;;
         5)
             
-             gnome-terminal -- bash hand.sh
+             gnome-terminal -- bash handshake.sh
             ;;
         6)
             
