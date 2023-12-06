@@ -46,7 +46,8 @@ while true; do
             ;;
         4)
             
-             gnome-terminal -- airodump-ng wlan0
+             gnome-terminal -- bash -c "airodump-ng wlan0; exec bash"
+             
             
             ;;
         5)
@@ -60,12 +61,12 @@ while true; do
             ;;
         7)
            
-            gnome-terminal -- bash Wi-Fi.sh
+            #gnome-terminal -- bash 
+            gnome-terminal -- bash -c "bash Wi-Fi.sh; exec bash"
             
             ;;
         90)
             clear
-             #gnome-terminal -- airodump-ng wlan0
             
             ;;
 
